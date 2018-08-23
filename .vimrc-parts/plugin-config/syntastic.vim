@@ -31,7 +31,7 @@ function! s:setupES6File()
   " Set the checkers for the current buffer to eslint
   " let b:syntastic_checkers = ["eslint"] " b: means for the current buffer only...
   " Set the arguments to pass to eslint to use the es6 ruleset...
-  let b:syntastic_javascript_eslint_args = "-c /Users/kdodds/Developer/paypal/p2pnodeweb/.eslintes6rc"
-  let b:syntastic_javascript_eslint_exec = "/Users/kdodds/Developer/paypal/p2pnodeweb/node_modules/.bin/eslint"
+  " let b:syntastic_javascript_eslint_args = "-c /Users/kdodds/Developer/paypal/p2pnodeweb/.eslintes6rc"
+  " let b:syntastic_javascript_eslint_exec = "/Users/kdodds/Developer/paypal/p2pnodeweb/node_modules/.bin/eslint"
 endfunction
 
